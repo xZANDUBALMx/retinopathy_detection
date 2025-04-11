@@ -345,7 +345,7 @@ csv_path = st.sidebar.text_input("Path to train.csv",
                                  value="D:/College/Jupyter Lab/Major Project/train.csv")
 # For the gaussian filtered images folder, you can enter a local path
 gaussian_images_folder = st.sidebar.text_input("Path to gaussian_filtered_images folder",
-                                               value="D:/College/Jupyter Lab/Major Project/gaussian_filtered_images")
+                                               value="https://drive.google.com/drive/folders/16TLG98mCPXEYKjY26mT2pvJhKHuSQoma?usp=drive_link")
 
 # Google Drive Links for files
 efficientnet_link_shared = st.sidebar.text_input("Link to efficientnetb1.h5",
